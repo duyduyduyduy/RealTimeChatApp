@@ -1,0 +1,86 @@
+.SideBarContainer {
+  width: 35%;
+  box-sizing: border-box;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.userInfo > div {
+  display: flex;
+}
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-right-from-bracket {
+  margin-left: 70px;
+  cursor: pointer;
+}
+.userInfo > div > img {
+  margin-left: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.NameandEmail {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.NameUser {
+  font-weight: bolder;
+  font-size: 14px;
+}
+.EmailUser {
+  font-size: 12px;
+  font-weight: bolder;
+  color: rgb(107, 107, 107);
+}
+.UserShortCutandSearch {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.UserShortCutandSearch > i {
+  position: absolute;
+  top: 18px;
+  left: 285px;
+  cursor: pointer;
+}
+.UserShortCutandSearch > input {
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+  color: rgb(58, 58, 58);
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #6d6d6d;
+}
+.UserInfoInShortCut {
+  transition: 0.3s;
+}
+.UserInfoInShortCut:hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+}

@@ -1,0 +1,91 @@
+.ChatContainer {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 20px 10px 20px 5px;
+}
+.ContacterContainer {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 10px;
+  background: rgb(244, 239, 239);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ContacterInfo > img {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+.ContacterInfo {
+  display: flex;
+  align-items: center;
+}
+.ContacterInfo > span {
+  margin-left: 10px;
+  font-weight: bolder;
+}
+.Feature {
+  display: flex;
+  align-items: center;
+}
+.Feature > i {
+  cursor: pointer;
+  background-color: rgb(254, 252, 241);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.Feature > i:hover {
+  background-color: rgb(221, 219, 209);
+}
+.fa-video {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.MessagesContainer {
+  height: 77%;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.InputContainer {
+  width: 100%;
+  position: relative;
+}
+.InputContainer > input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.InputContainer > label > img {
+  position: absolute;
+  top: 6px;
+  right: 55px;
+  cursor: pointer;
+}
+.InputContainer > i {
+  position: absolute;
+  top: 6px;
+  cursor: pointer;
+  right: 10px;
+  color: white;
+  background-color: #2e8bc0;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

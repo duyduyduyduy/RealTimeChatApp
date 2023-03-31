@@ -1,0 +1,28 @@
+.SenderContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 20px;
+}
+.SenderContainer > div {
+  display: flex;
+  flex-direction: column;
+}
+.avatarSender {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.ImgSender {
+  width: 160px;
+  height: 160px;
+  margin-top: 4px;
+  border-radius: 0px 10px 10px 10px;
+}
+.TextSender > p {
+  height: auto;
+  padding: 10px;
+  border-radius: 0px 10px 10px 10px;
+  background-color: white;
+}

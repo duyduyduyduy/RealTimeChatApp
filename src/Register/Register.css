@@ -1,0 +1,15 @@
+.addAvatar {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.addAvatar > span {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #af94db;
+  font-weight: bolder;
+}
+.passwordnotmatch {
+  color: red;
+}
